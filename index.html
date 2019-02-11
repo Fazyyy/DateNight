@@ -13,6 +13,9 @@
             <div id="ideaOutput">
 
             </div>
+            <div id="whyBork">
+
+            </div>
         </div>
         <script
             src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -28,7 +31,7 @@
                 "Date idea #6",
                 "Date idea #7"
             ];
-            var r = Math.floor(Math.random()*ideas.length+1);
+            var r = Math.floor(Math.random()*ideas.length);
 
             $( document ).ready(function() {
                 $("#ideaOutput").html(ideas[r]);
